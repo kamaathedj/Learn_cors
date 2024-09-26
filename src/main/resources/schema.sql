@@ -1,0 +1,2 @@
+create table prisoner(id INTEGER auto_increment primary key ,name varchar(255),duties varchar (255),prisonedwhen DATE )
+create table prisonerStuff(tagId INTEGER auto_increment primary key ,name varchar(255),prisonerId INTEGER )
